@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <h1>Калькулятор</h1>
+    <form id="calculatorForm">
+        <input type="number" id="num1" placeholder="Число 1" required>
+        <select id="operation">
+            <option value="plus">+</option>
+            <option value="minus">-</option>
+            <option value="multiply">*</option>
+            <option value="divide">/</option>
+        </select>
+        <input type="number" id="num2" placeholder="Число 2" required>
+        <button type="button" onclick="calculate()">Посчитать</button>
+    </form>
+    <p id="result"></p>
+
+    <script src="./scripts/task2.js"></script>
+</body>
+</html>
